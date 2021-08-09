@@ -1,3 +1,6 @@
+body{
+  background-color: #6d737f;
+}
 .header-container{
   height: 130px;
   background-color: #6d737f;
@@ -17,4 +20,53 @@
   padding-right: 28px;
   margin: 0;
   font-weight: 900;
+}
+.header-strap{
+  height: 50px;
+  background-color: #F0FFF2;
+  color: #6d737f;
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-strap-p{
+  padding-right: 24px;
+  margin: 0;
+}
+.landing-page-container {
+  margin-top: 30px;
+}
+.landing-page-container h3 {
+  color: #F0FFF2;
+  font-size: 18px;
+}
+.landing-page-header-container {
+  text-align: center;
+}
+.landing-page-header-img-container {
+  display: flex;
+  justify-content: center;
+}
+.landing-page-icons {
+  font-size: 40px;
+  color: #F0FFF2;
+  margin: 14px;
+}
+.game-category-container {
+  display: flex;
+}
+
+.single-game-container{
+  padding: 20px;
+}
+.single-category-title{
+  padding-left: 20px;
+  text-decoration: underline;
+}
+.single-game-image {
+  width: 250px;
+}
+.single-game-container :hover {
+  border: white 5px solid;
 }

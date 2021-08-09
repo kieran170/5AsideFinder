@@ -3,7 +3,8 @@ import 'semantic-ui-css/semantic.min.css';
 
 import './App.css';
 import LandingPage from './Pages/LandingPage';
-import Header from './Components/Header'
+import Header from './Components/Header';
+import Gamepage from './Pages/GamePage'
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
     <Router>
       <Header />
       <Route exact path='/' component={LandingPage}/>
+      <Route path='/games/*' component={Gamepage}/>
       <Redirect from='*' to='/'/>
     </Router>
   );
