@@ -23,7 +23,7 @@ export default function LandingPage() {
         },
         {
             name: 'UFC 4',
-            img: 'https://lh3.googleusercontent.com/proxy/Vwi5QnXpqJCmrGcEDig8lu9yy9qjp7KWv8x4t3a79E6mtC__xRRPkSp-IdLiV0O4VUgpZbbq_EfaOoPxnYEZYPbxCoycEM46HHyfB3_xG2p3YcgNRAgiV5XUa_O4baQbPvibcoZTWWI_'
+            img: 'https://sirusgaming.com/wp-content/uploads/2020/07/ea-sports-ufc-4-01.jpg'
         }
     ];
 

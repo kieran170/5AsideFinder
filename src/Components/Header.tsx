@@ -14,7 +14,7 @@ export default function Header() {
                 </div>
             </div>
             <div className='header-strap'>
-                <p className='header-strap-p'>Meet New Friends </p>
+                <p  className='header-strap-p'>Meet New Friends </p>
                 <p className='header-strap-p'>Battle Your Enemies </p>
             </div>
         </>
