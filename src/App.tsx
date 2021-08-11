@@ -11,9 +11,9 @@ function App() {
   return (
     <Router>
       <Header />
-      <Route exact path='/' component={LandingPage}/>
-      <Route path='/games/*' component={Gamepage}/>
-      <Redirect from='*' to='/'/>
+      <Route exact path='/' component={LandingPage} />
+      <Route path='/games/:game_id' component={Gamepage} />
+      <Redirect from='*' to='/' />
     </Router>
   );
 }
